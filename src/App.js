@@ -1,18 +1,21 @@
 import "./App.css";
 
-import logo from "./images/ironhack-logo-xs.png";
+
 import icon1 from "./images/icon1.png";
 import icon2 from "./images/icon2.png";
 import icon3 from "./images/icon3.png";
 import icon4 from "./images/icon4.png";
-import menu from "./images/menu-top-xs.png";
+
+
+import Navbar from './components/Navbar';
+
 
 function App() {
   return (
     <div className="App">
+    
     <div className="blue-background">
-    <img src={logo} alt="ironhack logo" />
-    <img src={menu} alt="menu icon" />
+    <Navbar />
       <h1>Say Hello to ReactJS</h1>
       <h3>
         You will learn how to use the most popular frontend Library, and become
